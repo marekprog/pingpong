@@ -1,0 +1,72 @@
+object Form3: TForm3
+  Left = 822
+  Top = 174
+  Width = 714
+  Height = 373
+  Caption = 'Difficulty'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object welcometext: TLabel
+    Left = 272
+    Top = 24
+    Width = 212
+    Height = 59
+    Caption = 'Difficulty'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -48
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object level1: TButton
+    Left = 88
+    Top = 136
+    Width = 169
+    Height = 137
+    Caption = 'Easy'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clLime
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = level1Click
+  end
+  object level2: TButton
+    Left = 272
+    Top = 136
+    Width = 169
+    Height = 137
+    Caption = 'Moderate'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clYellow
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object level3: TButton
+    Left = 456
+    Top = 136
+    Width = 169
+    Height = 137
+    Caption = 'Hard'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+end
